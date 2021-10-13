@@ -6,11 +6,10 @@ description: 'composite run action'
 runs:
   using: "composite"
   steps: 
-    steps:
-    - name: Echo
-      shell: bash
-      run: |
-        echo Heyyyyy
+   - name: Echo
+     shell: bash
+     run: |
+       echo Heyyyyy
 
 # Controls when the workflow will run
 on:
